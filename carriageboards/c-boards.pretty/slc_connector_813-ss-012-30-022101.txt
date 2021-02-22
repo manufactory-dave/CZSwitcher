@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-28112013-081674";"";
+"REFERENCE";"813-SS-012-30-022101";"";
+"TraceParts.ClassPath";"";"";
+"TraceParts.PartVersion";"1.0.7";"";
+"TraceParts.InstanceId";"10-28112013-08167478TA9FZMNBXBPE1TL8ASOHCCJ";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartTitle";"Surface mount SLC connector, double row, with 4 positioning pins - 2.54 mm GRID";"";
+"SUPPLIER";"preci-dip";"";
+"DESIGN";"Surface mount SLC connector, double row, with 4 positioning pins, 2.54 mm GRID, 12 contacts, A = 5 mm / B = 2,95 mm / S = 1,4 mm";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";

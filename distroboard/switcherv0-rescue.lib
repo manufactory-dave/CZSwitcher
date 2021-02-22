@@ -1,0 +1,213 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 282824-2-SamacSys_Parts
+#
+DEF 282824-2-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "282824-2-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "SHDR2W102P0X508_1X2_1016X835X1230P" 650 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/7100396P" 650 0 50 H I L CNN
+F4 "Pluggable Terminal Blocks HDR 2POS VERT GRN 5.08mm Pitch" 650 -100 50 H I L CNN "Description"
+F5 "12.3" 650 -200 50 H I L CNN "Height"
+F6 "7100396P" 650 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/7100396P" 650 -400 50 H I L CNN "RS Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "282824-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+F10 "70468533" 650 -700 50 H I L CNN "Allied_Number"
+DRAW
+S 200 100 300 -200 0 1 0 f
+S 230 -80 270 -120 0 1 0 N
+S 230 20 270 -20 0 1 0 N
+P 2 0 1 0 200 -100 250 -100 N
+P 2 0 1 0 200 0 250 0 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CubeZeroLogo-0switcher0
+#
+DEF CubeZeroLogo-0switcher0 U 0 40 Y Y 1 F N
+F0 "U" 0 170 50 H V C CNN
+F1 "CubeZeroLogo-0switcher0" 10 -160 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 7 0 1 0 -100 60 0 100 100 60 100 -60 0 -100 -100 -60 -100 60 N
+ENDDRAW
+ENDDEF
+#
+# FDN359BN-SamacSys_Parts
+#
+DEF FDN359BN-SamacSys_Parts Q 0 0 Y Y 1 F N
+F0 "Q" 200 -300 50 H V L CNN
+F1 "FDN359BN-SamacSys_Parts" 200 350 50 H V L CNN
+F2 "SOT95P251X112-3N" 200 250 50 H I L CNN
+F3 "" 200 150 50 H I L CNN
+F4 "FDN359BN, N-channel MOSFET Transistor 2.7 A 30 V, 3-Pin SuperSOT" 200 50 50 H I L CNN "Description"
+F5 "1.12" 200 -50 50 H I L CNN "Height"
+F6 "6710453P" 200 -150 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/6710453P" 200 -250 50 H I L CNN "RS Price/Stock"
+F8 "ON Semiconductor" 200 -350 50 H I L CNN "Manufacturer_Name"
+F9 "FDN359BN" 200 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+C 0 0 150 1 1 10 N
+P 2 0 1 0 60 60 100 60 N
+P 4 0 1 0 50 -100 80 -100 80 100 50 100 N
+P 4 0 1 0 80 60 60 10 100 10 80 60 F
+P 2 1 1 6 -20 -120 -20 -80 N
+P 2 1 1 6 -20 -100 50 -100 N
+P 2 1 1 6 -20 -20 -20 20 N
+P 2 1 1 6 -20 120 -20 80 N
+P 2 1 1 6 50 0 -20 0 N
+P 2 1 1 6 50 0 50 -200 N
+P 2 1 1 6 50 100 -20 100 N
+P 2 1 1 6 50 100 50 200 N
+P 3 1 1 6 -150 -100 -50 -100 -50 100 N
+P 4 1 1 10 -20 0 20 20 20 -20 -20 0 F
+X G 1 -250 -100 100 R 50 50 1 1 P
+X S 2 50 -300 100 U 50 50 1 1 P
+X D 3 50 300 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IPB034N03LGATMA1-SamacSys_Parts
+#
+DEF IPB034N03LGATMA1-SamacSys_Parts Q 0 0 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "IPB034N03LGATMA1-SamacSys_Parts" 450 50 50 H V L CNN
+F2 "IPB034N03LGATMA1" 450 -50 50 H I L CNN
+F3 "" 450 -150 50 H I L CNN
+F4 "Trans MOSFET N-CH 30V 80A 3-Pin(2+Tab) D2PAK T/R" 450 -250 50 H I L CNN "Description"
+F5 "4.826" 450 -350 50 H I L CNN "Height"
+F6 "7545424P" 450 -450 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/7545424P" 450 -550 50 H I L CNN "RS Price/Stock"
+F8 "Infineon" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "IPB034N03LGATMA1" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+C 250 100 150 0 1 10 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 80 230 120 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+X G 1 0 0 100 R 50 50 0 0 P
+X D 2 300 400 100 D 50 50 0 0 P
+X S 3 300 -200 100 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# KP-2012SYC-SamacSys_Parts
+#
+DEF KP-2012SYC-SamacSys_Parts LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "KP-2012SYC-SamacSys_Parts" 500 250 50 H V L BNN
+F2 "LEDC2012X110N" 500 150 50 H I L BNN
+F3 "http://uk.rs-online.com/web/p/products/4663835P" 500 50 50 H I L BNN
+F4 "Yellow 0805 clear chip-LED KP-2012SYC Kingbright KP-2012SYC Yellow LED, 588 nm, 2012 (0805), Rectangle Lens SMD Package" 500 -50 50 H I L BNN "Description"
+F5 "1.1" 500 -150 50 H I L BNN "Height"
+F6 "4663835P" 500 -250 50 H I L BNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/4663835P" 500 -350 50 H I L BNN "RS Price/Stock"
+F8 "Kingbright" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "KP-2012SYC" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+F10 "70424159" 500 -650 50 H I L BNN "Allied_Number"
+DRAW
+P 2 1 1 0 100 0 150 0 N
+P 2 1 1 0 150 50 150 -50 N
+P 2 1 1 6 200 0 300 0 N
+P 4 1 1 0 150 0 250 50 250 -55 150 0 F
+P 5 1 1 0 170 60 130 100 140 70 160 90 130 100 F
+P 5 1 1 0 180 100 190 70 210 90 180 100 220 60 F
+X ~ 1 0 0 100 R 50 50 1 1 P
+X ~ 2 400 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PTZTE2527A-SamacSys_Parts
+#
+DEF PTZTE2527A-SamacSys_Parts Z 0 30 Y Y 1 F N
+F0 "Z" -90 -130 50 H V L CNN
+F1 "PTZTE2527A-SamacSys_Parts" -90 -230 50 H V L CNN
+F2 "DIOM5026X220N" -90 -320 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/7002577P" -90 -410 50 H I L CNN
+F4 "ROHM PTZTE2527A Zener Diode, 27V 1 W SMT 2-Pin SOD-106" -90 -520 50 H I L CNN "Description"
+F5 "2.2" -90 -620 50 H I L CNN "Height"
+F6 "7002577P" -90 -720 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/7002577P" -90 -820 50 H I L CNN "RS Price/Stock"
+F8 "ROHM Semiconductor" -90 -920 50 H I L CNN "Manufacturer_Name"
+F9 "PTZTE2527A" -90 -1020 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 0 -60 40 -40 50 N
+P 3 0 1 0 -60 40 -60 -40 -80 -50 N
+P 4 0 1 0 -60 0 40 50 40 -50 -60 0 F
+X ~ 1 -150 0 100 R 50 50 0 0 P
+X ~ 2 150 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SML4748AHE3_A_H-0switcher0
+#
+DEF SML4748AHE3_A_H-0switcher0 Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L BNN
+F1 "SML4748AHE3_A_H-0switcher0" 400 250 50 H V L BNN
+F2 "0_switcherv0:DIOM5127X229N" 400 150 50 H I L BNN
+F3 "" 400 50 50 H I L BNN
+F4 "DIODE ZENER 1W DO214AC SMA" 400 -50 50 H I L BNN "Description"
+F5 "2.29" 400 -150 50 H I L BNN "Height"
+F6 "78-SML4748AHE3_A/H" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SML4748AHE3_A-H?qs=BJlw7L4Cy7%2F1ExTpe5kMvA%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Vishay" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SML4748AHE3_A/H" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+P 2 1 1 0 -60 40 -40 50 N
+P 3 1 1 0 -60 40 -60 -40 -80 -50 N
+P 4 1 1 0 -60 0 40 50 40 -50 -60 0 F
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ZF1-20-01-T-WT-SamacSys_Parts
+#
+DEF ZF1-20-01-T-WT-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "ZF1-20-01-T-WT-SamacSys_Parts" 750 200 50 H V L CNN
+F2 "ZF1-20-XX-ZZ-WT" 750 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1801808" 750 0 50 H I L CNN
+F4 "20 Position, 1.00 mm Zero Insertion Force Flat Flexible Cable Socket Strip" 750 -100 50 H I L CNN "Description"
+F5 "1801808" 750 -300 50 H I L CNN "RS Part Number"
+F6 "http://uk.rs-online.com/web/p/products/1801808" 750 -400 50 H I L CNN "RS Price/Stock"
+F7 "SAMTEC" 750 -500 50 H I L CNN "Manufacturer_Name"
+F8 "ZF1-20-01-T-WT" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -1000 200 -1000 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 10 10 0 -900 200 R 50 50 0 0 P
+X 11 11 900 0 200 L 50 50 0 0 P
+X 12 12 900 -100 200 L 50 50 0 0 P
+X 13 13 900 -200 200 L 50 50 0 0 P
+X 14 14 900 -300 200 L 50 50 0 0 P
+X 15 15 900 -400 200 L 50 50 0 0 P
+X 16 16 900 -500 200 L 50 50 0 0 P
+X 17 17 900 -600 200 L 50 50 0 0 P
+X 18 18 900 -700 200 L 50 50 0 0 P
+X 19 19 900 -800 200 L 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 20 20 900 -900 200 L 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

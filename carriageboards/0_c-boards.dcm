@@ -1,0 +1,73 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 802-10-012-30-507101
+D Preci-Dip 2.54mm 12 Way 2 Row Straight Surface Mount Male Connector Strip
+F https://componentsearchengine.com//802-10-012-30-507101.pdf
+$ENDCMP
+#
+$CMP 811-S1-004-10-017101
+D Preci-Dip 4x1 Spring Pin Thru Hole 2.54mm Header
+K Header Pogo
+F https://docs.rs-online.com/28c7/0900766b80e31ede.pdf
+$ENDCMP
+#
+$CMP 811-S1-008-10-014101
+D Preci-Dip 8x1 Spring Pin Thru Hole 2.54mm Header
+K Header Pogo
+F https://docs.rs-online.com/28c7/0900766b80e31ede.pdf
+$ENDCMP
+#
+$CMP 813-S1-012-10-014101
+D Preci-Dip 6x2 Spring Pin Thru Hole 2.54mm Header
+$ENDCMP
+#
+$CMP 813-SS-012-30-022101
+D Headers & Wire Housings
+F https://componentsearchengine.com/Datasheets/1/813-SS-012-30-022101.pdf
+$ENDCMP
+#
+$CMP 8MM-11-0004-02-131
+D Preci-dip 4 pin horizontal smt backplane connector DIY
+F http://www.precidip.com/AppHost/9695,1/Scripts/Modules/Catalog/Default.aspx?c=102&i=1712&p=352&pdf=1&dsku=8MM-11-00NN-02-131
+$ENDCMP
+#
+$CMP 8MM-11-0006-02-131
+D Headers & Wire Housings
+F http://www.precidip.com/AppHost/9695,1/Scripts/Modules/Catalog/Default.aspx?c=102&i=1712&p=352&pdf=1&dsku=8MM-11-00NN-02-131
+$ENDCMP
+#
+$CMP 8MM-11-0008-02-131
+D Preci-dip 8 pin horizontal smt backplane connector DIY
+F http://www.precidip.com/AppHost/9695,1/Scripts/Modules/Catalog/Default.aspx?c=102&i=1712&p=352&pdf=1&dsku=8MM-11-00NN-02-131
+$ENDCMP
+#
+$CMP PTZTE2527A
+D ROHM PTZTE2527A Zener Diode, 27V 1 W SMT 2-Pin SOD-106
+F http://uk.rs-online.com/web/p/products/7002577P
+$ENDCMP
+#
+$CMP PrecisionPiezo285
+D Precision Piezo Universal V2.85 Board
+$ENDCMP
+#
+$CMP ZF1-10-01-T-WT-TR
+D 10 Position, 1.00 mm Zero Insertion Force Flat Flexible Cable Socket Strip
+F http://uk.rs-online.com/web/p/products/1801973P
+$ENDCMP
+#
+$CMP ZF1-12-01-T-WT-TR
+D 12 Position, 1.00 mm Zero Insertion Force Flat Flexible Cable Socket Strip
+F http://suddendocs.samtec.com/prints/zf1-xx-xx-xx-wt-xx-mkt.pdf
+$ENDCMP
+#
+$CMP ZF1-15-01-T-WT
+D 15 Position, 1.00 mm Zero Insertion Force Flat Flexible Cable Socket Strip
+F http://uk.rs-online.com/web/p/products/1801783
+$ENDCMP
+#
+$CMP ZF1-20-01-T-WT
+D 20 Position, 1.00 mm Zero Insertion Force Flat Flexible Cable Socket Strip
+F http://uk.rs-online.com/web/p/products/1801808
+$ENDCMP
+#
+#End Doc Library

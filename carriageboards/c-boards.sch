@@ -1,0 +1,1138 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+24V #PWR0111
+U 1 1 60106D2E
+P 1600 1650
+F 0 "#PWR0111" H 1600 1500 50  0001 C CNN
+F 1 "+24V" V 1615 1778 50  0000 L CNN
+F 2 "" H 1600 1650 50  0001 C CNN
+F 3 "" H 1600 1650 50  0001 C CNN
+	1    1600 1650
+	0    -1   -1   0   
+$EndComp
+Text Label 1250 1850 2    50   ~ 0
+HEATER_OUT
+Text Label 2850 2150 0    50   ~ 0
+PROBE
+Text Label 2850 2050 0    50   ~ 0
+THERM_OUT
+Text Label 2850 1450 0    50   ~ 0
+AUX0
+Text Label 2850 1650 0    50   ~ 0
+AUX1
+Text Label 1250 1250 2    50   ~ 0
+1B
+Text Label 1250 1350 2    50   ~ 0
+2B
+Text Label 1250 1450 2    50   ~ 0
+2A
+Text Label 1250 1550 2    50   ~ 0
+1A
+Wire Wire Line
+	2500 1850 2850 1850
+Wire Wire Line
+	2850 2150 2500 2150
+Wire Wire Line
+	1250 1850 1600 1850
+Wire Wire Line
+	2850 1650 2500 1650
+Wire Wire Line
+	1600 1950 1600 1850
+Wire Wire Line
+	1250 1550 1600 1550
+Wire Wire Line
+	1600 1450 1250 1450
+Wire Wire Line
+	1250 1350 1600 1350
+Wire Wire Line
+	1600 1250 1250 1250
+Wire Wire Line
+	2500 1550 2850 1550
+Text Notes 1500 850  0    50   ~ 0
+CONTROL FFC CABLE
+Wire Notes Line
+	700  2350 700  700 
+Wire Notes Line
+	700  700  3350 700 
+Wire Notes Line
+	3350 700  3350 2350
+Wire Notes Line
+	3350 2350 700  2350
+Wire Wire Line
+	2850 2050 2500 2050
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5FFB45F5
+P 2650 4750
+F 0 "J4" H 2730 4792 50  0000 L CNN
+F 1 "AUX 0" H 2730 4701 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 2650 4750 50  0001 C CNN
+F 3 "~" H 2650 4750 50  0001 C CNN
+	1    2650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 5FFB4D20
+P 2650 5250
+F 0 "J5" H 2730 5292 50  0000 L CNN
+F 1 "AUX 1" H 2730 5201 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 2650 5250 50  0001 C CNN
+F 3 "~" H 2650 5250 50  0001 C CNN
+	1    2650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5FFC7616
+P 1600 2050
+F 0 "#PWR0106" H 1600 1800 50  0001 C CNN
+F 1 "GND" V 1605 1922 50  0000 R CNN
+F 2 "" H 1600 2050 50  0001 C CNN
+F 3 "" H 1600 2050 50  0001 C CNN
+	1    1600 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 5FFC77F3
+P 2500 1250
+F 0 "#PWR0107" H 2500 1100 50  0001 C CNN
+F 1 "+3V3" V 2515 1378 50  0000 L CNN
+F 2 "" H 2500 1250 50  0001 C CNN
+F 3 "" H 2500 1250 50  0001 C CNN
+	1    2500 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 1450 2850 1450
+$Comp
+L 0_c-boards:PrecisionPiezo285 PCB0
+U 1 1 5FFD1275
+P 1850 2850
+F 0 "PCB0" H 1850 3100 50  0000 C CNN
+F 1 "PrecisionPiezo285" H 1850 3000 50  0000 C CNN
+F 2 "0c-boards:Precision_Piezo_2.85" H 1430 3000 50  0001 C CNN
+F 3 "" H 1430 3000 50  0001 C CNN
+	1    1850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Bridged12 JP0
+U 1 1 5FFD7011
+P 3050 3150
+F 0 "JP0" H 3050 3354 50  0000 C CNN
+F 1 "PIEZO / PROBE SELECT" H 3050 3263 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3050 3150 50  0001 C CNN
+F 3 "~" H 3050 3150 50  0001 C CNN
+	1    3050 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 2850 1250 2950
+$Comp
+L power:GND #PWR0108
+U 1 1 5FFE4BAE
+P 1250 3050
+F 0 "#PWR0108" H 1250 2800 50  0001 C CNN
+F 1 "GND" V 1255 2922 50  0000 R CNN
+F 2 "" H 1250 3050 50  0001 C CNN
+F 3 "" H 1250 3050 50  0001 C CNN
+	1    1250 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5FFE60C8
+P 2450 3050
+F 0 "#PWR0109" H 2450 2800 50  0001 C CNN
+F 1 "GND" V 2455 2922 50  0000 R CNN
+F 2 "" H 2450 3050 50  0001 C CNN
+F 3 "" H 2450 3050 50  0001 C CNN
+	1    2450 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5FFE7EA0
+P 1650 3550
+F 0 "#PWR0110" H 1650 3300 50  0001 C CNN
+F 1 "GND" V 1655 3422 50  0000 R CNN
+F 2 "" H 1650 3550 50  0001 C CNN
+F 3 "" H 1650 3550 50  0001 C CNN
+	1    1650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5FFE9389
+P 1750 3550
+F 0 "#PWR0112" H 1750 3300 50  0001 C CNN
+F 1 "GND" V 1755 3422 50  0000 R CNN
+F 2 "" H 1750 3550 50  0001 C CNN
+F 3 "" H 1750 3550 50  0001 C CNN
+	1    1750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5FFE97A0
+P 1850 3550
+F 0 "#PWR0113" H 1850 3300 50  0001 C CNN
+F 1 "GND" V 1855 3422 50  0000 R CNN
+F 2 "" H 1850 3550 50  0001 C CNN
+F 3 "" H 1850 3550 50  0001 C CNN
+	1    1850 3550
+	1    0    0    -1  
+$EndComp
+Text Label 2800 2950 0    50   ~ 0
+PZ-
+Wire Wire Line
+	2800 2950 2450 2950
+Text Label 2800 2850 0    50   ~ 0
+PZ+
+Wire Wire Line
+	2800 2850 2450 2850
+Text Label 1950 3900 3    50   ~ 0
+PZ-
+Wire Wire Line
+	1950 3900 1950 3550
+Text Label 2050 3900 3    50   ~ 0
+PZ+
+Wire Wire Line
+	2050 3900 2050 3550
+Text Label 900  3150 2    50   ~ 0
+PZ-
+Wire Wire Line
+	900  3150 1250 3150
+Text Label 900  3250 2    50   ~ 0
+PZ+
+Wire Wire Line
+	900  3250 1250 3250
+Text Label 3300 3950 2    50   ~ 0
+PZ-
+Text Label 3300 4400 2    50   ~ 0
+PZ+
+Text Label 3050 2750 0    50   ~ 0
+PROBE
+$Comp
+L power:GND #PWR0115
+U 1 1 5FFF5A4E
+P 3500 2950
+F 0 "#PWR0115" H 3500 2700 50  0001 C CNN
+F 1 "GND" V 3505 2822 50  0000 R CNN
+F 2 "" H 3500 2950 50  0001 C CNN
+F 3 "" H 3500 2950 50  0001 C CNN
+	1    3500 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5FFB363C
+P 3700 3050
+F 0 "J2" H 3780 3092 50  0000 L CNN
+F 1 "PROBE" H 3780 3001 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 3700 3050 50  0001 C CNN
+F 3 "~" H 3700 3050 50  0001 C CNN
+	1    3700 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3150 3300 3150
+Text Label 2250 4750 2    50   ~ 0
+AUX0
+Text Label 2250 5250 2    50   ~ 0
+AUX1
+$Comp
+L power:GND #PWR0119
+U 1 1 60013B53
+P 2450 5150
+F 0 "#PWR0119" H 2450 4900 50  0001 C CNN
+F 1 "GND" V 2455 5022 50  0000 R CNN
+F 2 "" H 2450 5150 50  0001 C CNN
+F 3 "" H 2450 5150 50  0001 C CNN
+	1    2450 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 4750 2250 4750
+Text Label 5200 1250 2    50   ~ 0
+1B_1
+Text Label 5200 1350 2    50   ~ 0
+2B_1
+Text Label 5200 1450 2    50   ~ 0
+2A_1
+Text Label 5200 1550 2    50   ~ 0
+1A_1
+Wire Wire Line
+	5200 1650 5200 1750
+$Comp
+L power:GND1 #PWR0129
+U 1 1 60214208
+P 2500 1950
+F 0 "#PWR0129" H 2500 1700 50  0001 C CNN
+F 1 "GND1" V 2505 1822 50  0000 R CNN
+F 2 "" H 2500 1950 50  0001 C CNN
+F 3 "" H 2500 1950 50  0001 C CNN
+	1    2500 1950
+	0    -1   -1   0   
+$EndComp
+Text Label 6100 3050 0    50   ~ 0
+1B_1
+Text Label 6100 2950 0    50   ~ 0
+2B_1
+Text Label 5200 2950 2    50   ~ 0
+2A_1
+Text Label 5200 3050 2    50   ~ 0
+1A_1
+Text Label 5200 3150 2    50   ~ 0
+24V_1
+Text Label 5200 3250 2    50   ~ 0
+HEATER_OUT_1
+Text Label 5750 5000 2    50   ~ 0
+PROBE
+Text Label 6100 3450 0    50   ~ 0
+GND1_1
+Wire Wire Line
+	5200 1850 5200 1950
+Text Label 6100 1250 0    50   ~ 0
+3V3_1
+Text Label 6100 1750 0    50   ~ 0
+GND1_1
+Text Label 6100 1850 0    50   ~ 0
+THERM_OUT_1
+Text Label 5200 2150 2    50   ~ 0
+GND_1
+Text Label 5200 1750 2    50   ~ 0
+24V_1
+Text Label 5200 1950 2    50   ~ 0
+HEATER_OUT_1
+$Comp
+L Connector_Generic:Conn_01x03 J12
+U 1 1 600B549E
+P 4900 2500
+F 0 "J12" H 4980 2542 50  0000 L CNN
+F 1 "AUX 0" H 4980 2451 50  0000 L CNN
+F 2 "1SamacSys_Parts:JST-XH_2.50MM_03x01_SMT" H 4900 2500 50  0001 C CNN
+F 3 "~" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	-1   0    0    1   
+$EndComp
+Text Label 5100 2600 0    50   ~ 0
+GND_1
+Text Label 5100 2400 0    50   ~ 0
+V_AUX0_1
+Text Label 5100 2500 0    50   ~ 0
+AUX0_1
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60103BAD
+P 5150 750
+F 0 "H1" H 5250 796 50  0000 L CNN
+F 1 "MountingHole" H 5250 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5150 750 50  0001 C CNN
+F 3 "~" H 5150 750 50  0001 C CNN
+	1    5150 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60104B43
+P 5500 750
+F 0 "H2" H 5600 796 50  0000 L CNN
+F 1 "MountingHole" H 5600 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5500 750 50  0001 C CNN
+F 3 "~" H 5500 750 50  0001 C CNN
+	1    5500 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60104E6D
+P 5900 750
+F 0 "H3" H 6000 796 50  0000 L CNN
+F 1 "MountingHole" H 6000 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5900 750 50  0001 C CNN
+F 3 "~" H 5900 750 50  0001 C CNN
+	1    5900 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0_c-boards:813-S1-012-10-014101 J14
+U 1 1 5FFCB7B2
+P 5200 2950
+F 0 "J14" H 5650 3215 50  0000 C CNN
+F 1 "TOOL INTERFACE" H 5650 3124 50  0000 C CNN
+F 2 "0c-boards:813-S1-012-10-014101" H 5950 3050 50  0001 L CNN
+F 3 "" H 5950 2950 50  0001 L CNN
+F 4 "Preci-Dip 2.54mm 12 Way 2 Row Straight Through Hole Male Spring Loaded Connector" H 5950 2850 50  0001 L CNN "Description"
+F 5 "6" H 5950 2750 50  0001 L CNN "Height"
+F 6 "Preci-Dip" H 5950 2450 50  0001 L CNN "Manufacturer_Name"
+F 7 "813-S1-012-10-014101" H 5950 2350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0_c-boards:ZF1-20-01-T-WT J0
+U 1 1 5FFA70FD
+P 1600 1250
+F 0 "J0" H 2050 1515 50  0000 C CNN
+F 1 "SWITCHBOARD" H 2050 1424 50  0000 C CNN
+F 2 "0c-boards:ZF1-20-XX-ZZ-WT_Handsolder" H 2350 1350 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/1801808" H 2350 1250 50  0001 L CNN
+F 4 "20 Position, 1.00 mm Zero Insertion Force Flat Flexible Cable Socket Strip" H 2350 1150 50  0001 L CNN "Description"
+F 5 "1801808" H 2350 950 50  0001 L CNN "RS Part Number"
+F 6 "http://uk.rs-online.com/web/p/products/1801808" H 2350 850 50  0001 L CNN "RS Price/Stock"
+F 7 "SAMTEC" H 2350 750 50  0001 L CNN "Manufacturer_Name"
+F 8 "ZF1-20-01-T-WT" H 2350 650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1600 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 1850
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60015466
+P 700 4900
+F 0 "H4" H 800 4946 50  0000 L CNN
+F 1 "MountingHole" H 800 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 700 4900 50  0001 C CNN
+F 3 "~" H 700 4900 50  0001 C CNN
+	1    700  4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6001656B
+P 700 5200
+F 0 "H5" H 800 5246 50  0000 L CNN
+F 1 "MountingHole" H 800 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 700 5200 50  0001 C CNN
+F 3 "~" H 700 5200 50  0001 C CNN
+	1    700  5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6001690B
+P 700 5500
+F 0 "H6" H 800 5546 50  0000 L CNN
+F 1 "MountingHole" H 800 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 700 5500 50  0001 C CNN
+F 3 "~" H 700 5500 50  0001 C CNN
+	1    700  5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60016B73
+P 700 5800
+F 0 "H7" H 800 5846 50  0000 L CNN
+F 1 "MountingHole" H 800 5755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 700 5800 50  0001 C CNN
+F 3 "~" H 700 5800 50  0001 C CNN
+	1    700  5800
+	1    0    0    -1  
+$EndComp
+Text Label 5200 3450 2    50   ~ 0
+3V3_1
+Text Label 6100 3350 0    50   ~ 0
+THERM_OUT_1
+Wire Wire Line
+	1600 1650 1600 1750
+Connection ~ 1600 1650
+Text Label 2850 1350 0    50   ~ 0
+V_AUX0
+Text Label 2850 1550 0    50   ~ 0
+V_AUX1
+Text Label 2850 1750 0    50   ~ 0
+V_AUX2
+Text Label 2850 1850 0    50   ~ 0
+AUX2
+Wire Wire Line
+	2500 1750 2850 1750
+Wire Wire Line
+	2500 1350 2850 1350
+Text Notes 1350 6250 0    50   ~ 0
+TOOLHEAD FFC CABLE
+Wire Notes Line
+	550  7750 550  6100
+Wire Notes Line
+	550  6100 3200 6100
+Wire Notes Line
+	3200 6100 3200 7750
+Wire Notes Line
+	3200 7750 550  7750
+$Comp
+L 0_c-boards:ZF1-20-01-T-WT J1
+U 1 1 5FFCCD83
+P 1450 6650
+F 0 "J1" H 1900 6915 50  0000 C CNN
+F 1 "TOOLPOST" H 1900 6824 50  0000 C CNN
+F 2 "0c-boards:ZF1-20-XX-ZZ-WT_Handsolder" H 2200 6750 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/1801808" H 2200 6650 50  0001 L CNN
+F 4 "20 Position, 1.00 mm Zero Insertion Force Flat Flexible Cable Socket Strip" H 2200 6550 50  0001 L CNN "Description"
+F 5 "1801808" H 2200 6350 50  0001 L CNN "RS Part Number"
+F 6 "http://uk.rs-online.com/web/p/products/1801808" H 2200 6250 50  0001 L CNN "RS Price/Stock"
+F 7 "SAMTEC" H 2200 6150 50  0001 L CNN "Manufacturer_Name"
+F 8 "ZF1-20-01-T-WT" H 2200 6050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1450 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2050 1600 2150
+Wire Wire Line
+	2250 5250 2450 5250
+Connection ~ 1600 2050
+Wire Wire Line
+	5200 2050 5200 2150
+Wire Wire Line
+	2450 3150 2800 3150
+Wire Wire Line
+	3050 2750 3050 3000
+Text Label 2250 4850 2    50   ~ 0
+V_AUX0
+Wire Wire Line
+	2250 4850 2450 4850
+Text Label 2250 5350 2    50   ~ 0
+V_AUX1
+Wire Wire Line
+	2250 5350 2450 5350
+$Comp
+L Connector_Generic:Conn_01x03 J6
+U 1 1 60076ADB
+P 2650 5700
+F 0 "J6" H 2730 5742 50  0000 L CNN
+F 1 "AUX 2" H 2730 5651 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 2650 5700 50  0001 C CNN
+F 3 "~" H 2650 5700 50  0001 C CNN
+	1    2650 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 60076F9F
+P 2450 5600
+F 0 "#PWR0105" H 2450 5350 50  0001 C CNN
+F 1 "GND" V 2455 5472 50  0000 R CNN
+F 2 "" H 2450 5600 50  0001 C CNN
+F 3 "" H 2450 5600 50  0001 C CNN
+	1    2450 5600
+	-1   0    0    1   
+$EndComp
+Text Label 2200 5800 2    50   ~ 0
+V_AUX2
+Text Label 2200 5700 2    50   ~ 0
+AUX2
+Wire Wire Line
+	2200 5700 2450 5700
+Wire Wire Line
+	2450 5800 2200 5800
+$Comp
+L power:GND #PWR0118
+U 1 1 600131D7
+P 2450 4650
+F 0 "#PWR0118" H 2450 4400 50  0001 C CNN
+F 1 "GND" V 2455 4522 50  0000 R CNN
+F 2 "" H 2450 4650 50  0001 C CNN
+F 3 "" H 2450 4650 50  0001 C CNN
+	1    2450 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J13
+U 1 1 600884CF
+P 5850 2500
+F 0 "J13" H 5930 2542 50  0000 L CNN
+F 1 "AUX 1" H 5930 2451 50  0000 L CNN
+F 2 "1SamacSys_Parts:JST-XH_2.50MM_03x01_SMT" H 5850 2500 50  0001 C CNN
+F 3 "~" H 5850 2500 50  0001 C CNN
+	1    5850 2500
+	-1   0    0    1   
+$EndComp
+Text Label 6050 2600 0    50   ~ 0
+GND_1
+Text Label 6050 2400 0    50   ~ 0
+V_AUX1_1
+Text Label 6050 2500 0    50   ~ 0
+AUX1_1
+Text Label 6100 1350 0    50   ~ 0
+V_AUX0_1
+Text Label 6100 1450 0    50   ~ 0
+AUX0_1
+Text Label 6100 1550 0    50   ~ 0
+V_AUX1_1
+Text Label 6100 1650 0    50   ~ 0
+AUX1_1
+Text Label 5200 3350 2    50   ~ 0
+GND_1
+Text Label 6100 3150 0    50   ~ 0
+V_AUX0_1
+Text Label 6100 3250 0    50   ~ 0
+AUX0_1
+Text Label 7700 4250 0    50   ~ 0
+HEATLED-
+Text Label 6100 2050 0    50   ~ 0
+PROBELED-_1
+Text Label 6100 2150 0    50   ~ 0
+HEATLED-_1
+Wire Wire Line
+	7850 2950 7950 2950
+Wire Wire Line
+	7350 2950 7450 2950
+Text Label 7950 2950 0    50   ~ 0
+HEATLED-_1
+Text Label 7950 2500 0    50   ~ 0
+PROBELED-_1
+Wire Wire Line
+	7350 2500 7450 2500
+Wire Wire Line
+	7850 2500 7950 2500
+$Comp
+L power:GND #PWR0102
+U 1 1 5FFCCD6B
+P 2350 6750
+F 0 "#PWR0102" H 2350 6500 50  0001 C CNN
+F 1 "GND" V 2355 6622 50  0000 R CNN
+F 2 "" H 2350 6750 50  0001 C CNN
+F 3 "" H 2350 6750 50  0001 C CNN
+	1    2350 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 7550 2700 7550
+Wire Wire Line
+	2700 7450 2350 7450
+Wire Wire Line
+	2350 7350 2700 7350
+Wire Wire Line
+	2700 7250 2350 7250
+Wire Wire Line
+	2700 6950 2350 6950
+Text Label 2700 7250 0    50   ~ 0
+1A
+Text Label 2700 7350 0    50   ~ 0
+2A
+Text Label 2700 7450 0    50   ~ 0
+2B
+Text Label 2700 7550 0    50   ~ 0
+1B
+Text Label 2700 6950 0    50   ~ 0
+HEATER_OUT
+$Comp
+L power:+24V #PWR0101
+U 1 1 5FFCCD4C
+P 2350 7150
+F 0 "#PWR0101" H 2350 7000 50  0001 C CNN
+F 1 "+24V" V 2365 7278 50  0000 L CNN
+F 2 "" H 2350 7150 50  0001 C CNN
+F 3 "" H 2350 7150 50  0001 C CNN
+	1    2350 7150
+	0    1    1    0   
+$EndComp
+Text Label 1100 6950 2    50   ~ 0
+THERM_OUT
+Text Label 1100 7350 2    50   ~ 0
+AUX0
+Text Label 1100 7150 2    50   ~ 0
+AUX1
+Wire Wire Line
+	1100 7150 1450 7150
+Wire Wire Line
+	1450 7250 1100 7250
+Wire Wire Line
+	1100 6950 1450 6950
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5FFCCD71
+P 1450 7550
+F 0 "#PWR0103" H 1450 7400 50  0001 C CNN
+F 1 "+3V3" V 1465 7678 50  0000 L CNN
+F 2 "" H 1450 7550 50  0001 C CNN
+F 3 "" H 1450 7550 50  0001 C CNN
+	1    1450 7550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 7350 1100 7350
+$Comp
+L power:GND1 #PWR0104
+U 1 1 5FFCCD78
+P 1450 7050
+F 0 "#PWR0104" H 1450 6800 50  0001 C CNN
+F 1 "GND1" V 1455 6922 50  0000 R CNN
+F 2 "" H 1450 7050 50  0001 C CNN
+F 3 "" H 1450 7050 50  0001 C CNN
+	1    1450 7050
+	0    1    1    0   
+$EndComp
+Text Label 1100 7450 2    50   ~ 0
+V_AUX0
+Text Label 1100 7250 2    50   ~ 0
+V_AUX1
+Wire Wire Line
+	1450 7450 1100 7450
+Text Label 1100 6650 2    50   ~ 0
+HEATLED-
+Wire Wire Line
+	1100 6750 1450 6750
+Wire Wire Line
+	1450 6650 1100 6650
+Wire Wire Line
+	2350 6650 2350 6750
+Connection ~ 2350 6750
+Wire Wire Line
+	2350 6850 2350 6950
+Connection ~ 2350 6950
+Wire Wire Line
+	2350 7050 2350 7150
+Connection ~ 2350 7150
+$Comp
+L 0daves:JST-ZH_2PIN_SMT_SIDE_ENTRY J7
+U 1 1 600F4D61
+P 3500 3950
+F 0 "J7" H 3580 3942 50  0000 L CNN
+F 1 "PIEZO 1" H 3580 3851 50  0000 L CNN
+F 2 "0_Daves_Stuff:JST-ZH_S2B-ZR-SM4A-TF" H 3500 3950 50  0001 C CNN
+F 3 "https://docs.rs-online.com/fe20/0900766b813ed0da.pdf" H 3500 3950 50  0001 C CNN
+F 4 "S2B-ZR-SM4A-TF" H 3500 3950 50  0001 C CNN "Part No"
+	1    3500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0daves:JST-ZH_2PIN_SMT_SIDE_ENTRY J8
+U 1 1 600F5D2A
+P 3500 4300
+F 0 "J8" H 3580 4292 50  0000 L CNN
+F 1 "PIEZO 2" H 3580 4201 50  0000 L CNN
+F 2 "0_Daves_Stuff:JST-ZH_S2B-ZR-SM4A-TF" H 3500 4300 50  0001 C CNN
+F 3 "https://docs.rs-online.com/fe20/0900766b813ed0da.pdf" H 3500 4300 50  0001 C CNN
+F 4 "S2B-ZR-SM4A-TF" H 3500 4300 50  0001 C CNN "Part No"
+	1    3500 4300
+	1    0    0    -1  
+$EndComp
+Text Label 3300 4300 2    50   ~ 0
+PZ-
+Text Label 3300 4050 2    50   ~ 0
+PZ+
+$Comp
+L 0Mosfets:DMN3150L-7 Q0
+U 1 1 60028BA2
+P 5850 5000
+F 0 "Q0" H 6325 5100 50  0000 C CNN
+F 1 "DMN3150L-7" H 6550 5000 50  0000 C CNN
+F 2 "0Mosfets:SUPER-SOT-3" H 6300 4950 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/8232933P" H 6300 4850 50  0001 L CNN
+F 4 "N-Channel MOSFET, 3.8 A, 30 V, 3-Pin SOT-23 Diodes Inc DMN3150L-7" H 6300 4750 50  0001 L CNN "Description"
+F 5 "1.2" H 6300 4650 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 6300 4350 50  0001 L CNN "Manufacturer_Name"
+F 7 "DMN3150L-7" H 6300 4250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5000 5850 5000
+Wire Wire Line
+	6150 5350 6150 5200
+$Comp
+L power:+3V3 #PWR02
+U 1 1 60048066
+P 5800 3850
+F 0 "#PWR02" H 5800 3700 50  0001 C CNN
+F 1 "+3V3" V 5815 3978 50  0000 L CNN
+F 2 "" H 5800 3850 50  0001 C CNN
+F 3 "" H 5800 3850 50  0001 C CNN
+	1    5800 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 600168ED
+P 5800 5350
+F 0 "#PWR0123" H 5800 5100 50  0001 C CNN
+F 1 "GND" V 5805 5222 50  0000 R CNN
+F 2 "" H 5800 5350 50  0001 C CNN
+F 3 "" H 5800 5350 50  0001 C CNN
+	1    5800 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 5350 6150 5350
+Connection ~ 6150 5350
+Wire Wire Line
+	6300 4250 6150 4250
+Wire Wire Line
+	6150 4250 6150 4300
+Wire Wire Line
+	9150 4500 9150 4600
+Connection ~ 9150 4500
+Wire Wire Line
+	9150 4400 9150 4500
+Text Label 9150 4100 0    50   ~ 0
+HEATER_OUT
+Wire Wire Line
+	9150 4900 9150 5350
+$Comp
+L 0Mosfets:NTR1P02T1G Q1
+U 1 1 600C4407
+P 8800 4200
+F 0 "Q1" H 9200 4465 50  0000 C CNN
+F 1 "NTR1P02T1G" H 9200 4374 50  0000 C CNN
+F 2 "0Mosfets:SUPER-SOT-3" H 9450 4300 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/6889143P" H 9450 4200 50  0001 L CNN
+F 4 "Power MOSFET" H 9450 4100 50  0001 L CNN "Description"
+F 5 "1.11" H 9450 4000 50  0001 L CNN "Height"
+F 6 "6889143P" H 9450 3900 50  0001 L CNN "RS Part Number"
+F 7 "http://uk.rs-online.com/web/p/products/6889143P" H 9450 3800 50  0001 L CNN "RS Price/Stock"
+F 8 "ON Semiconductor" H 9450 3700 50  0001 L CNN "Manufacturer_Name"
+F 9 "NTR1P02T1G" H 9450 3600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "70341389" H 9450 3500 50  0001 L CNN "Allied_Number"
+	1    8800 4200
+	-1   0    0    1   
+$EndComp
+Text Label 6300 4250 0    50   ~ 0
+PROBELED-
+Wire Wire Line
+	8800 4200 8800 4500
+Wire Wire Line
+	8800 4500 9150 4500
+$Comp
+L 0daves:JST-ZH_4PIN_SMT_SIDE_ENTRY J3
+U 1 1 6013F5E1
+P 10600 4750
+F 0 "J3" H 10400 4900 50  0000 L CNN
+F 1 "STATUS LED" H 10350 5000 50  0000 L CNN
+F 2 "0_Daves_Stuff:JST-ZH_S4B-ZR-SM4A-TF" H 10600 4750 50  0001 C CNN
+F 3 "https://docs.rs-online.com/fe20/0900766b813ed0da.pdf" H 10600 4750 50  0001 C CNN
+	1    10600 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0116
+U 1 1 60142200
+P 10400 4450
+F 0 "#PWR0116" H 10400 4300 50  0001 C CNN
+F 1 "+3V3" V 10415 4578 50  0000 L CNN
+F 2 "" H 10400 4450 50  0001 C CNN
+F 3 "" H 10400 4450 50  0001 C CNN
+	1    10400 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 10300 4550 2    50   ~ 0
+PROBELED-
+Wire Wire Line
+	10300 4550 10400 4550
+Text Label 10300 4650 2    50   ~ 0
+HEATLED-
+Wire Wire Line
+	10300 4650 10400 4650
+$Comp
+L 0daves:JST-ZH_4PIN_SMT_SIDE_ENTRY J10
+U 1 1 600ED096
+P 8150 6400
+F 0 "J10" H 8100 6700 50  0000 L CNN
+F 1 "STATUS LED" H 8000 6600 50  0000 L CNN
+F 2 "0_Daves_Stuff:JST-ZH_S4B-ZR-SM4A-TF" H 8150 6400 50  0001 C CNN
+F 3 "https://docs.rs-online.com/fe20/0900766b813ed0da.pdf" H 8150 6400 50  0001 C CNN
+	1    8150 6400
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0117
+U 1 1 6017AF79
+P 3500 3050
+F 0 "#PWR0117" H 3500 2900 50  0001 C CNN
+F 1 "+3V3" V 3515 3178 50  0000 L CNN
+F 2 "" H 3500 3050 50  0001 C CNN
+F 3 "" H 3500 3050 50  0001 C CNN
+	1    3500 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0120
+U 1 1 6017BD82
+P 1250 2850
+F 0 "#PWR0120" H 1250 2700 50  0001 C CNN
+F 1 "+3V3" V 1265 2978 50  0000 L CNN
+F 2 "" H 1250 2850 50  0001 C CNN
+F 3 "" H 1250 2850 50  0001 C CNN
+	1    1250 2850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1250 2850
+Text Label 1100 6750 2    50   ~ 0
+PROBELED-
+Text Label 7350 2500 2    50   ~ 0
+3V3_1
+Wire Wire Line
+	8500 3850 8500 4000
+$Comp
+L 0LedsSMD:APTD3216LVBC_D LED0
+U 1 1 601FF77F
+P 6150 4250
+F 0 "LED0" V 6396 4167 50  0000 R CNN
+F 1 "APTD3216LVBC_D" V 6305 4167 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6650 4400 50  0001 L BNN
+F 3 "https://www.mouser.co.uk/datasheet/2/216/APTD3216LVBC-D-1101864.pdf" H 6650 4300 50  0001 L BNN
+F 4 "SMD 3.2x1.6mm BLUE 30mA 2.2V DOMED" H 6650 4200 50  0001 L BNN "Description"
+F 5 "1.25" H 6650 4100 50  0001 L BNN "Height"
+F 6 "Kingbright" H 6650 3800 50  0001 L BNN "Manufacturer_Name"
+F 7 "APTD3216LVBC/D" H 6650 3700 50  0001 L BNN "Manufacturer_Part_Number"
+	1    6150 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0LedsSMD:APTD3216LVBC_D LED4
+U 1 1 60202216
+P 7850 2500
+F 0 "LED4" H 8050 2280 50  0000 C CNN
+F 1 "APTD3216LVBC_D" H 8050 2371 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8350 2650 50  0001 L BNN
+F 3 "https://www.mouser.co.uk/datasheet/2/216/APTD3216LVBC-D-1101864.pdf" H 8350 2550 50  0001 L BNN
+F 4 "SMD 3.2x1.6mm Blue" H 8350 2450 50  0001 L BNN "Description"
+F 5 "1.25" H 8350 2350 50  0001 L BNN "Height"
+F 6 "Kingbright" H 8350 2050 50  0001 L BNN "Manufacturer_Name"
+F 7 "APTD3216LVBC/D" H 8350 1950 50  0001 L BNN "Manufacturer_Part_Number"
+	1    7850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L 0LedsSMD:APTD3216LSYCK LED5
+U 1 1 60209C22
+P 7850 2950
+F 0 "LED5" H 8050 2730 50  0000 C CNN
+F 1 "APTD3216LSYCK" H 8050 2821 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8350 3100 50  0001 L BNN
+F 3 "https://www.mouser.co.uk/datasheet/2/216/APTD3216LSYCK-1101973.pdf" H 8350 3000 50  0001 L BNN
+F 4 "SMD 3.2x1.6mm Yellow" H 8350 2900 50  0001 L BNN "Description"
+F 5 "1.25" H 8350 2800 50  0001 L BNN "Height"
+F 6 "Kingbright" H 8350 2500 50  0001 L BNN "Manufacturer_Name"
+F 7 "APTD3216LSYCK" H 8350 2400 50  0001 L BNN "Manufacturer_Part_Number"
+	1    7850 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L 0LedsSMD:APTD3216LSYCK LED1
+U 1 1 6020BB0A
+P 7500 4250
+F 0 "LED1" V 7746 4168 50  0000 R CNN
+F 1 "APTD3216LSYCK" V 7655 4168 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8000 4400 50  0001 L BNN
+F 3 "https://www.mouser.co.uk/datasheet/2/216/APTD3216LSYCK-1101973.pdf" H 8000 4300 50  0001 L BNN
+F 4 "SMD 3.2x1.6mm YELLOW 30mA 1.85V DOMED" H 8000 4200 50  0001 L BNN "Description"
+F 5 "1.25" H 8000 4100 50  0001 L BNN "Height"
+F 6 "Kingbright" H 8000 3800 50  0001 L BNN "Manufacturer_Name"
+F 7 "APTD3216LSYCK" H 8000 3700 50  0001 L BNN "Manufacturer_Part_Number"
+	1    7500 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3850 6150 3850
+Connection ~ 6150 4250
+Connection ~ 6150 3850
+$Comp
+L 0Resistors_0805:39R R0
+U 1 1 602237E6
+P 6150 4450
+F 0 "R0" H 6220 4496 50  0000 L CNN
+F 1 "39R" H 6220 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6080 4450 50  0001 C CNN
+F 3 "" H 6150 4450 50  0001 C CNN
+F 4 "RK73B2ATTD390J" H 6150 4450 50  0001 C CNN "Manufacturer_Part_Number"
+	1    6150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0Resistors_0805:51R R1
+U 1 1 60226440
+P 7500 4500
+F 0 "R1" H 7570 4546 50  0000 L CNN
+F 1 "51R" H 7570 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7430 4500 50  0001 C CNN
+F 3 "" H 7500 4500 50  0001 C CNN
+F 4 "RK73B2ATTD510J" H 7500 4500 50  0001 C CNN "Manufacturer_Part_Number"
+	1    7500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0LedsSMD:APTD3216LSYCK LED3
+U 1 1 60233656
+P 7450 6400
+F 0 "LED3" H 7650 6180 50  0000 C CNN
+F 1 "APTD3216LSYCK" H 7650 6271 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7950 6550 50  0001 L BNN
+F 3 "https://www.mouser.co.uk/datasheet/2/216/APTD3216LSYCK-1101973.pdf" H 7950 6450 50  0001 L BNN
+F 4 "SMD 3.2x1.6mm Yellow" H 7950 6350 50  0001 L BNN "Description"
+F 5 "1.25" H 7950 6250 50  0001 L BNN "Height"
+F 6 "Kingbright" H 7950 5950 50  0001 L BNN "Manufacturer_Name"
+F 7 "APTD3216LSYCK" H 7950 5850 50  0001 L BNN "Manufacturer_Part_Number"
+	1    7450 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L 0LedsSMD:APTD3216LVBC_D LED2
+U 1 1 60235120
+P 7450 6150
+F 0 "LED2" H 7650 5930 50  0000 C CNN
+F 1 "APTD3216LVBC_D" H 7650 6021 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7950 6300 50  0001 L BNN
+F 3 "https://www.mouser.co.uk/datasheet/2/216/APTD3216LVBC-D-1101864.pdf" H 7950 6200 50  0001 L BNN
+F 4 "SMD 3.2x1.6mm Blue" H 7950 6100 50  0001 L BNN "Description"
+F 5 "1.25" H 7950 6000 50  0001 L BNN "Height"
+F 6 "Kingbright" H 7950 5700 50  0001 L BNN "Manufacturer_Name"
+F 7 "APTD3216LVBC/D" H 7950 5600 50  0001 L BNN "Manufacturer_Part_Number"
+	1    7450 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L 0Resistors_0805:39k R2
+U 1 1 6023D8CE
+P 9150 4250
+F 0 "R2" H 9220 4296 50  0000 L CNN
+F 1 "39k" H 9220 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9080 4250 50  0001 C CNN
+F 3 "" H 9150 4250 50  0001 C CNN
+F 4 "RK73B2ATTD393J" H 9150 4250 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "250mW" H 9150 4250 50  0001 C CNN "Power"
+	1    9150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0Resistors_0805:10k R3
+U 1 1 6023EB8E
+P 9150 4750
+F 0 "R3" H 9220 4796 50  0000 L CNN
+F 1 "39k" H 9220 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9080 4750 50  0001 C CNN
+F 3 "" H 9150 4750 50  0001 C CNN
+F 4 "RK73B2ATTD103J" H 9150 4750 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "250mW" H 9150 4750 50  0001 C CNN "Power"
+	1    9150 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0_c-boards:ZF1-20-01-T-WT J11
+U 1 1 5FFBEFD5
+P 5200 1250
+F 0 "J11" H 5650 1515 50  0000 C CNN
+F 1 "CARRIAGEBOARD" H 5650 1424 50  0000 C CNN
+F 2 "0c-boards:ZF1-20-XX-ZZ-WT_Handsolder" H 5950 1350 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/1801808" H 5950 1250 50  0001 L CNN
+F 4 "20 Position, 1.00 mm Zero Insertion Force Flat Flexible Cable Socket Strip" H 5950 1150 50  0001 L CNN "Description"
+F 5 "1801808" H 5950 950 50  0001 L CNN "RS Part Number"
+F 6 "http://uk.rs-online.com/web/p/products/1801808" H 5950 850 50  0001 L CNN "RS Price/Stock"
+F 7 "SAMTEC" H 5950 750 50  0001 L CNN "Manufacturer_Name"
+F 8 "ZF1-20-01-T-WT" H 5950 650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 601DB6DC
+P 8400 6200
+F 0 "H8" H 8500 6246 50  0000 L CNN
+F 1 "MountingHole" H 8500 6155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 8400 6200 50  0001 C CNN
+F 3 "~" H 8400 6200 50  0001 C CNN
+	1    8400 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4250 7500 4350
+Wire Wire Line
+	7700 4250 7500 4250
+Connection ~ 7500 4250
+$Comp
+L 0Mosfets:DMN3150L-7 Q2
+U 1 1 602632A7
+P 7800 5050
+F 0 "Q2" H 8275 5150 50  0000 C CNN
+F 1 "DMN3150L-7" H 8400 4950 50  0000 C CNN
+F 2 "0Mosfets:SUPER-SOT-3" H 8250 5000 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/8232933P" H 8250 4900 50  0001 L CNN
+F 4 "N-Channel MOSFET, 3.8 A, 30 V, 3-Pin SOT-23 Diodes Inc DMN3150L-7" H 8250 4800 50  0001 L CNN "Description"
+F 5 "1.2" H 8250 4700 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 8250 4400 50  0001 L CNN "Manufacturer_Name"
+F 7 "DMN3150L-7" H 8250 4300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7800 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0Resistors_0805:51R R4
+U 1 1 602678DA
+P 8500 5050
+F 0 "R4" H 8570 5096 50  0000 L CNN
+F 1 "220R" H 8570 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8430 5050 50  0001 C CNN
+F 3 "" H 8500 5050 50  0001 C CNN
+F 4 "RK73B2ATTD510J" H 8500 5050 50  0001 C CNN "Manufacturer_Part_Number"
+	1    8500 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5200 8500 5350
+Connection ~ 8500 5350
+Wire Wire Line
+	8500 5350 9150 5350
+Wire Wire Line
+	8500 4600 8500 4800
+Connection ~ 7500 3850
+Wire Wire Line
+	7500 3850 8500 3850
+Wire Wire Line
+	6150 3850 7500 3850
+Wire Wire Line
+	6150 5350 7500 5350
+Wire Wire Line
+	7500 5250 7500 5350
+Connection ~ 7500 5350
+Wire Wire Line
+	7500 5350 8500 5350
+Wire Wire Line
+	7800 5050 8050 5050
+Wire Wire Line
+	8050 5050 8050 4800
+Wire Wire Line
+	8050 4800 8500 4800
+Connection ~ 8500 4800
+Wire Wire Line
+	8500 4800 8500 4900
+Wire Wire Line
+	7050 6150 7050 6400
+Wire Wire Line
+	7450 6400 7800 6400
+Wire Wire Line
+	7800 6400 7800 6300
+Wire Wire Line
+	7800 6300 7950 6300
+Wire Wire Line
+	7450 6150 7600 6150
+Wire Wire Line
+	7600 6150 7600 6200
+Wire Wire Line
+	7600 6200 7950 6200
+Wire Wire Line
+	7050 6150 7050 5850
+Wire Wire Line
+	7050 5850 7950 5850
+Wire Wire Line
+	7950 5850 7950 6100
+Connection ~ 7050 6150
+NoConn ~ 7950 6400
+NoConn ~ 10400 4750
+Text Label 7350 2950 2    50   ~ 0
+3V3_1
+$EndSCHEMATC

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 0switcher0)(type Legacy)(uri D:/Users/Dave/Documents/3D_Printing/Cube_Zero/Electronics/switcher/switcherv0/switcherv0-cache.lib)(options "")(descr ""))
+  (lib (name switcherv0-rescue)(type Legacy)(uri ${KIPRJMOD}/switcherv0-rescue.lib)(options "")(descr ""))
+  (lib (name 0_c-boards)(type Legacy)(uri D:/Users/Dave/Documents/3D_Printing/Cube_Zero/Electronics/switcher/c-boards/0_c-boards.lib)(options "")(descr ""))
+)

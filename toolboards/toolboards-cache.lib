@@ -1,0 +1,594 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0LedsSMD_APTR3216-VFX
+#
+DEF 0LedsSMD_APTR3216-VFX LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "0LedsSMD_APTR3216-VFX" 500 250 50 H V L BNN
+F2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" 500 150 50 H I L BNN
+F3 "" 500 50 50 H I L BNN
+F4 "SMD 3.2x1.6mm PURPLE 30mA 3.3V" 500 -50 50 H I L BNN "Description"
+F5 "1.25" 500 -150 50 H I L BNN "Height"
+F6 "Kingbright" 500 -450 50 H I L BNN "Manufacturer_Name"
+F7 "APTR3216-VFX" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+P 2 1 1 0 100 0 150 0 N
+P 2 1 1 0 150 50 150 -50 N
+P 2 1 1 6 200 0 300 0 N
+P 4 1 1 0 150 0 250 50 250 -55 150 0 F
+P 5 1 1 0 170 60 130 100 140 70 160 90 130 100 F
+P 5 1 1 0 180 100 190 70 210 90 180 100 220 60 F
+X ~ 1 0 0 100 R 50 50 1 1 P
+X ~ 2 400 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0LedsSMD_LTST-C171KSKT
+#
+DEF 0LedsSMD_LTST-C171KSKT LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "0LedsSMD_LTST-C171KSKT" 500 250 50 H V L BNN
+F2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" 500 150 50 H I L BNN
+F3 "" 500 50 50 H I L BNN
+F4 "SMD 2.0x1.6mm YELLOW 30mA 2.0V" 500 -50 50 H I L BNN "Description"
+F5 "1.25" 500 -150 50 H I L BNN "Height"
+F6 "Lite-On" 500 -450 50 H I L BNN "Manufacturer_Name"
+F7 "LTST-C171KSKT" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+P 2 1 1 0 100 0 150 0 N
+P 2 1 1 0 150 50 150 -50 N
+P 2 1 1 6 200 0 300 0 N
+P 4 1 1 0 150 0 250 50 250 -55 150 0 F
+P 5 1 1 0 170 60 130 100 140 70 160 90 130 100 F
+P 5 1 1 0 180 100 190 70 210 90 180 100 220 60 F
+X ~ 1 0 0 100 R 50 50 1 1 P
+X ~ 2 400 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0Mosfets_DMN3150L-7
+#
+DEF 0Mosfets_DMN3150L-7 Q 0 0 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "0Mosfets_DMN3150L-7" 450 50 50 H V L CNN
+F2 "0Mosfets:SUPER-SOT-3" 450 -50 50 H I L CNN
+F3 "" 450 -150 50 H I L CNN
+F4 "N-Channel MOSFET, 3.8 A, 30 V, 3-Pin SOT-23 Diodes Inc DMN3150L-7" 450 -250 50 H I L CNN "Description"
+F5 "1.2" 450 -350 50 H I L CNN "Height"
+F6 "Diodes Inc." 450 -650 50 H I L CNN "Manufacturer_Name"
+F7 "DMN3150L-7" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+C 250 100 150 0 1 10 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 80 230 120 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+P 2 1 1 6 230 0 300 0 N
+P 2 1 1 6 300 200 230 200 N
+P 2 1 1 0 310 160 350 160 N
+P 4 1 1 0 300 0 330 0 330 200 300 200 N
+P 4 1 1 0 330 160 310 110 350 110 330 160 F
+X G 1 0 0 100 R 50 50 0 0 I
+X S 2 300 -200 100 U 50 50 0 0 P
+X D 3 300 400 100 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 0Mosfets_NTR1P02T1G
+#
+DEF 0Mosfets_NTR1P02T1G Q 0 0 Y Y 1 F N
+F0 "Q" 650 300 50 H V L CNN
+F1 "0Mosfets_NTR1P02T1G" 650 200 50 H V L CNN
+F2 "0Mosfets:SUPER-SOT-3" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Power MOSFET" 650 -100 50 H I L CNN "Description"
+F5 "1.11" 650 -200 50 H I L CNN "Height"
+F6 "6889143P" 650 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/6889143P" 650 -400 50 H I L CNN "RS Price/Stock"
+F8 "ON Semiconductor" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "NTR1P02T1G" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+F10 "70341389" 650 -700 50 H I L CNN "Allied_Number"
+DRAW
+C 300 0 5 0 1 0 N
+C 300 200 5 0 1 0 N
+C 250 100 150 1 1 10 N
+P 2 0 1 0 314 83 356 83 N
+P 4 0 1 0 300 200 335 200 335 0 300 0 N
+P 2 1 1 6 230 -20 230 20 N
+P 2 1 1 6 230 0 300 0 N
+P 2 1 1 6 230 80 230 120 N
+P 2 1 1 6 230 220 230 180 N
+P 2 1 1 6 300 100 230 100 N
+P 2 1 1 6 300 100 300 -100 N
+P 2 1 1 6 300 200 230 200 N
+P 2 1 1 6 300 200 300 300 N
+P 3 1 1 6 100 0 200 0 200 200 N
+P 4 1 1 10 288 100 248 80 248 120 288 100 F
+P 4 1 1 10 335 87 315 127 355 127 335 87 F
+X G 1 0 0 100 R 50 50 1 1 P
+X S 2 300 -200 100 U 50 50 1 1 P
+X D 3 300 400 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0Resistors_0805_100R
+#
+DEF 0Resistors_0805_100R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "0Resistors_0805_100R" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "RK73B2ATTE101J" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F5 "250mW" 0 0 50 H V C CNN "Power"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0Resistors_0805_10k
+#
+DEF 0Resistors_0805_10k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "0Resistors_0805_10k" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "RK73B2ATTD103J" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F5 "250mW" 0 0 50 H V C CNN "Power"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0Resistors_0805_22R
+#
+DEF 0Resistors_0805_22R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "0Resistors_0805_22R" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "RK73B2ATTDD220J" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F5 "250mW" 0 0 50 H V C CNN "Power"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0Resistors_0805_39k
+#
+DEF 0Resistors_0805_39k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "0Resistors_0805_39k" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "RK73B2ATTD393J" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F5 "250mW" 0 0 50 H V C CNN "Power"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0Resistors_0805_56R
+#
+DEF 0Resistors_0805_56R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "0Resistors_0805_56R" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "RK73B2ATTD560J" 0 0 50 H I C CNN "Manufacturer_Part_Number"
+F5 "250mW" 0 0 50 H V C CNN "Power"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0_c-boards_802-10-012-30-507101
+#
+DEF 0_c-boards_802-10-012-30-507101 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "0_c-boards_802-10-012-30-507101" 750 200 50 H V L CNN
+F2 "8021001230507101" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com//802-10-012-30-507101.pdf" 750 0 50 H I L CNN
+F4 "Preci-Dip 2.54mm 12 Way 2 Row Straight Surface Mount Male Connector Strip" 750 -100 50 H I L CNN "Description"
+F5 "5" 750 -200 50 H I L CNN "Height"
+F6 "Preci-Dip" 750 -500 50 H I L CNN "Manufacturer_Name"
+F7 "802-10-012-30-507101" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 0_c-boards_811-S1-004-10-017101
+#
+DEF 0_c-boards_811-S1-004-10-017101 J 0 40 Y Y 1 F N
+F0 "J" 0 340 50 H V C CNN
+F1 "0_c-boards_811-S1-004-10-017101" 0 240 50 H V C CNN
+F2 "0c-boards:811-S1-004-10-017101" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 100 275 -400 0 1 0 f
+S 120 20 160 -20 0 1 0 N
+S 120 -280 160 -320 1 1 0 N
+S 120 -180 160 -220 1 1 0 N
+S 120 -80 160 -120 1 1 0 N
+P 2 0 1 0 0 0 140 0 N
+P 2 1 1 0 0 -300 140 -300 N
+P 2 1 1 0 0 -200 140 -200 N
+P 2 1 1 0 0 -100 140 -100 N
+X ~ 1 -100 0 100 R 50 50 1 1 I
+X ~ 2 -100 -100 100 R 50 50 1 1 I
+X ~ 3 -100 -200 100 R 50 50 1 1 I
+X ~ 4 -100 -300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 0_c-boards_8MM-11-0004-02-131
+#
+DEF 0_c-boards_8MM-11-0004-02-131 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "0_c-boards_8MM-11-0004-02-131" 650 200 50 H V L CNN
+F2 "0c-boards:8MM11000402131" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings" 650 -100 50 H I L CNN "Description"
+F5 "2.44" 650 -200 50 H I L CNN "Height"
+F6 "437-8MM11000402131" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Preci-dip/8MM-11-0004-02-131?qs=KBM%2FMdeLKehMwgMz4%2Fld6g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Preci-Dip" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "8MM-11-0004-02-131" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 200 100 400 -400 0 1 0 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 0_c-boards_ZF1-10-01-T-WT-TR
+#
+DEF 0_c-boards_ZF1-10-01-T-WT-TR J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "0_c-boards_ZF1-10-01-T-WT-TR" 750 200 50 H V L CNN
+F2 "ZF1-10-XX-ZZ-WT-TR" 750 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1801973P" 750 0 50 H I L CNN
+F4 "10 Position, 1.00 mm Zero Insertion Force Flat Flexible Cable Socket Strip" 750 -100 50 H I L CNN "Description"
+F5 "1801973P" 750 -300 50 H I L CNN "RS Part Number"
+F6 "http://uk.rs-online.com/web/p/products/1801973P" 750 -400 50 H I L CNN "RS Price/Stock"
+F7 "SAMTEC" 750 -500 50 H I L CNN "Manufacturer_Name"
+F8 "ZF1-10-01-T-WT-TR" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 900 0 200 L 50 50 0 0 P
+X 7 7 900 -100 200 L 50 50 0 0 P
+X 8 8 900 -200 200 L 50 50 0 0 P
+X 9 9 900 -300 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 0daves_1x2_45°_Clamp_Termi_17.5A
+#
+DEF 0daves_1x2_45°_Clamp_Termi_17.5A J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "0daves_1x2_45°_Clamp_Termi_17.5A" 650 200 50 H V L CNN
+F2 "0_Daves_Stuff:1x2_Power_Clamp_Termi_5.08mm" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Buchanan 1x2 Header,5.08mm pitch, vertical thru hole" 650 -100 50 H I L CNN "Description"
+F5 "12.3" 650 -200 50 H I L CNN "Height"
+F6 "7100396P" 650 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/7100396P" 650 -400 50 H I L CNN "RS Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "282824-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+F10 "70468533" 650 -700 50 H I L CNN "Allied_Number"
+DRAW
+S 200 100 300 -200 0 1 0 f
+S 230 -80 270 -120 0 1 0 N
+S 230 20 270 -20 0 1 0 N
+P 2 0 1 0 200 -100 250 -100 N
+P 2 0 1 0 200 0 250 0 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 0daves_JST-XH_3pin_Vertical_Thru
+#
+DEF 0daves_JST-XH_3pin_Vertical_Thru J* 0 40 Y N 1 F N
+F0 "J*" 0 200 50 H V C CNN
+F1 "0daves_JST-XH_3pin_Vertical_Thru" 0 -200 50 H V C CNN
+F2 "0_Daves_Stuff:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0daves_JST-ZH_4PIN_SMT_SIDE_ENTRY
+#
+DEF 0daves_JST-ZH_4PIN_SMT_SIDE_ENTRY J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "0daves_JST-ZH_4PIN_SMT_SIDE_ENTRY" 0 -430 50 H V C CNN
+F2 "0_Daves_Stuff:JST-ZH_S4B-ZR-SM4A-TF" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "S4B-ZR-SM4A-TF" 0 0 50 H I C CNN "Part Number"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -350 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+X Pin_3 3 -200 -200 150 R 50 50 1 1 P
+X Pin_4 4 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1SamacSys_Parts_1x2_Horizontal_Header_15A
+#
+DEF 1SamacSys_Parts_1x2_Horizontal_Header_15A J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1SamacSys_Parts_1x2_Horizontal_Header_15A" 650 200 50 H V L CNN
+F2 "SHDRRA2W102P0X508_1X2_1016X1200X850P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Buchanan 1x2 Header,5.08mm pitch, horizontal thru hole" 650 -100 50 H I L CNN "Description"
+F5 "8.5" 650 -200 50 H I L CNN "Height"
+F6 "3617544" 650 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/3617544" 650 -400 50 H I L CNN "RS Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "282815-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 1SamacSys_Parts_74AHCT1G125SE-7
+#
+DEF 1SamacSys_Parts_74AHCT1G125SE-7 U 0 30 Y Y 1 F N
+F0 "U" 850 300 50 H V L CNN
+F1 "1SamacSys_Parts_74AHCT1G125SE-7" 850 200 50 H V L CNN
+F2 "SOT65P210X110-5N" 850 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/9210262P" 850 0 50 H I L CNN
+F4 "DiodesZetex 74AHCT1G125SE-7, Buffer, Driver 3-State, Non-Inverting, 4.5  5.5 V, 5-Pin SOT-353" 850 -100 50 H I L CNN "Description"
+F5 "9210262P" 850 -300 50 H I L CNN "RS Part Number"
+F6 "http://uk.rs-online.com/web/p/products/9210262P" 850 -400 50 H I L CNN "RS Price/Stock"
+F7 "Diodes Inc." 850 -500 50 H I L CNN "Manufacturer_Name"
+F8 "74AHCT1G125SE-7" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X ~OE 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X Y 4 1000 -100 200 L 50 50 0 0 P
+X VCC 5 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 1SamacSys_Parts_SSW-104-02-G-D-RA
+#
+DEF 1SamacSys_Parts_SSW-104-02-G-D-RA J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1SamacSys_Parts_SSW-104-02-G-D-RA" 650 200 50 H V L CNN
+F2 "SSW-104-XX-YYY-D-RA" 650 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/7655638P" 650 0 50 H I L CNN
+F4 "8 Position, Tiger Buy&trade; Socket Strip with PCB Tails, 0.100&quot; Pitch" 650 -100 50 H I L CNN "Description"
+F5 "7655638P" 650 -300 50 H I L CNN "RS Part Number"
+F6 "http://uk.rs-online.com/web/p/products/7655638P" 650 -400 50 H I L CNN "RS Price/Stock"
+F7 "SAMTEC" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "SSW-104-02-G-D-RA" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 -300 200 R 50 50 0 0 P
+X 2 2 800 -300 200 L 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 -200 200 L 50 50 0 0 P
+X 5 5 0 -100 200 R 50 50 0 0 P
+X 6 6 800 -100 200 L 50 50 0 0 P
+X 7 7 0 0 200 R 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 1SamacSys_Parts_TSW-104-07-L-D-LL
+#
+DEF 1SamacSys_Parts_TSW-104-07-L-D-LL J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1SamacSys_Parts_TSW-104-07-L-D-LL" 650 200 50 H V L CNN
+F2 "HDRV8W64P254_2X4_1016X495X838P" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf" 650 0 50 H I L CNN
+F4 "CONN HEADER 8 POS .100\"" 650 -100 50 H I L CNN "Description"
+F5 "8.38" 650 -200 50 H I L CNN "Height"
+F6 "SAMTEC" 650 -500 50 H I L CNN "Manufacturer_Name"
+F7 "TSW-104-07-L-D-LL" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 800 -300 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x03
+#
+DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x04
+#
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x07
+#
+DEF Connector_Generic_Conn_01x07 J 0 40 Y N 1 F N
+F0 "J" 0 400 50 H V C CNN
+F1 "Connector_Generic_Conn_01x07" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 350 50 -350 1 1 10 f
+X Pin_1 1 -200 300 150 R 50 50 1 1 P
+X Pin_2 2 -200 200 150 R 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 -200 0 150 R 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 -200 -200 150 R 50 50 1 1 P
+X Pin_7 7 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Jumper_NC_Dual
+#
+DEF Device_Jumper_NC_Dual JP 0 30 Y N 1 F N
+F0 "JP" 50 -100 50 H V L CNN
+F1 "Device_Jumper_NC_Dual" 0 100 50 H V C BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A -60 10 64 386 1413 0 1 0 N -10 50 -110 50
+A 60 10 64 386 1413 0 1 0 N 110 50 10 50
+C -120 0 35 0 1 0 N
+C 0 0 36 0 1 0 N
+C 120 0 35 0 1 0 N
+X 1 1 -250 0 95 R 50 50 0 1 P
+X 2 2 0 -100 60 U 50 50 0 1 P
+X 3 3 250 0 95 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
