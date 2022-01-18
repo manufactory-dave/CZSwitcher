@@ -1,19 +1,52 @@
 # CZSwitcher
 
-====Cube Zero Switcher Project====
+====Cube Zero Switcher Project Version 2 Alpha====
 
-Version 1
+Version 2 alpha
 Board revisions:
 
-Distro Rev 0
-Carriage Rev 0
-Tool Rev 0
+Distro Rev [tbc]
+Carriage Rev [tbc]
+Tool Rev [tbc]
 
-====Overview====
+====Changelog====
 
-This is the project data store for the Cube Zero custom electronics. Why Cube Zero? Because that film came after Cube 2 Hypercube, and it was a better film.
+[fix V1 errors]
+Add ADXL345 to carriage board
+Upgrade files to KiCad V6
+Integrate files into one project [maybe]
 
-The Cube Zero is my 3D printer design, essentially a Hypercube/HEVort inspired thing that features a cable-less tool changing system, because outlandish expense and complication is king. My intent is not to have airtight documentation here, as that will kill progress on the project. Please do submit questions via whatever method github suggests best, I have relatively little experience with the platform.
+====Cube Zero Overview====
+
+Cube Zero is a CoreXY tool changing 3D printer design that is currently WIP. The requirements for the machine are:
+- The machine shall have high rigidity
+- The machine should be readily adaptable to use a heated enclosure
+- The machine must be electrically safe
+- The machine must use CoreXY architecture
+- The design should minimise moving mass
+- The machine shall support multi-material prints
+- The machine should have rapidly changeable tools to enable rapid swap reliability
+- The machine should not be reliant on a specific firmware
+
+These requirements have evolved with the design, currently the design is a CoreXY machine with 3 tool changer stations. Currently the design utilises direct drive extruders using Nema10 motors and a worm gear arrangement to minimise mass. Hot end compatibiliy is to be E3D groovemount.
+
+Why choose the name Cube Zero? Because that film came after Cube 2 Hypercube, and it was a better film.
+
+====Custom Electronics Overview (This repository)====
+
+The drive to minimise mass (and the potential for tangling with 3 or more tools all with separate cable trains to be independently strain relieved and managed leads to the chosen solution: Independent wiring to tool storage bays and the toolhead, with a single flexible flat cable (FFC) connecting the toolhead.
+A wide FFC is capable of supporting its own mass and is very light, and furthermore is flexible in two axis simultaneously, making it substantially simpler and more robust than multiple cable chains, at the cost of requiring breakout PCBs.
+By selecting a suitably heavy duty FFC (Samtec manufacture high current capacity cables) and using multiple conductors for the heater, 5A current capacity for heaters is easily achieved.
+The result of using hot swapped tools is that a single stepper driver can be  used to control every extruder, meaning that any 4 driver board could theoretically handle an arbitrary number of tools.
+
+The system architecture creates the need for several circuit boards having the following requirements:
+- The electronics must connect the printer control board to the docking stations and toolhead
+- Sensor, motor and heater connections should be switched in a low latency, low resistance manner
+- Tool docks must have temperature sense and heater connections
+- The toolhead should support auxilliary functions such as part cooling fans, servo motors and bed levelling sensors
+- The toolhead should support ADXL345 integration for Klipper Input Shaper operation
+
+[edited up to here]
 
 Three seperate KiCad v5 projects are stored here:
 
@@ -59,3 +92,12 @@ The BOM is sketchy, once it's defined and working I'll update it. For now it has
 
 ====PCBs====
 Not available at this time
+
+====Version History====
+
+Version 1
+Board revisions:
+
+Distro Rev 0
+Carriage Rev 0
+Tool Rev 0
